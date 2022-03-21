@@ -94,9 +94,11 @@ function changeQuestion() {
     makeSimpleState()
     questionNumber += 1
     if(questionNumber == 10){
-        document.getElementById("finalScore").innerText = "Your Final Score"
         document.getElementById("thankyou").innerText = "Thank You!"
         document.getElementById("score").innerText = score + "/40"
+    }
+    if(questionNumber == 9){
+        document.getElementById("next").innerText = "Click for Result"
     }
     targetQuestion.innerText = mcq[questionNumber].question
     targetFirst.innerText = mcq[questionNumber].firstOption
