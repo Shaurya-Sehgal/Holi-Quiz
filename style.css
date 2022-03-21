@@ -1,0 +1,97 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: blue;
+    animation-name: back;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition-property: all;
+    transition-duration: 2s;
+}
+@keyframes back {
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color: red;
+    }
+    50%{
+        background-color: yellow;
+    }
+    75%{
+        background-color: green;
+    }
+    100%{
+        background-color: blue;
+    }
+}
+.start img{
+    width: 15%;
+    border-radius: 20px;
+    text-align: center;
+    border: solid;
+    border-width: 5px;
+}
+h1{
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    margin-top: 24px;
+    width: 15%;
+    border-radius: 5px;
+    color: blue;
+    background-color: lightgreen;
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid;
+    border-color: black;
+    padding: 5px;
+}
+button:hover{
+    cursor: pointer;
+    width: 18%;
+    background-color: lime;
+    font-size: 25px;
+}
+#left{
+    width: 12%;
+    margin-left: 100px;
+    margin-top: 60px;
+    border-radius: 20px;
+    border: solid;
+}
+#middle{
+    margin-left: 500px;
+    width: 13%;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    border: solid;
+}
+#right{
+    width: 13%;
+    border-radius: 20px;
+    margin-left: 500px;
+    border: solid;
+}
+#bottomRight{
+    width: 13%;
+    border-radius: 20px;
+    margin-left: 200px;
+    border: solid;
+}
+#bottomMiddle{
+    width: 12%;
+    margin-left: 500px;
+    margin-top: 80px;
+    border-radius: 20px;
+    border: solid;
+}
+#bottomLeft{
+    margin-left: 200px;
+    width: 12%;
+    border-radius: 20px;
+    border: solid;
+}
+

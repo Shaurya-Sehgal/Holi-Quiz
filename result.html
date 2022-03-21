@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: blue;
+            animation-name: back;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            transition-property: all;
+            transition-duration: 2s;
+        }
+
+        @keyframes back {
+            0% {
+                background-color: blue;
+            }
+
+            25% {
+                background-color: red;
+            }
+
+            50% {
+                background-color: yellow;
+            }
+
+            75% {
+                background-color: green;
+            }
+
+            100% {
+                background-color: blue;
+            }
+        }
+        .score{
+            width: 25%;
+            height: 20vh;
+            border: solid;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+    <h1>Your Score</h1>
+    <div class="score">
+    <h2 id="finalScore"></h2>
+    </div>
+    <button onclick="viewscore()">View Score</button>
+</center>
+<script src="score.js"></script>
+</body>
+
+</html>
