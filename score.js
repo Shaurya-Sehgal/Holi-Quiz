@@ -96,6 +96,7 @@ function changeQuestion() {
     if(questionNumber == 10){
         document.getElementById("finalScore").innerText = "Your Final Score"
         document.getElementById("thankyou").innerText = "Thank You!"
+        document.getElementById("score").innerText = score + "/40"
     }
     targetQuestion.innerText = mcq[questionNumber].question
     targetFirst.innerText = mcq[questionNumber].firstOption
