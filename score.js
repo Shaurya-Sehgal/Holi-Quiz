@@ -96,6 +96,7 @@ function changeQuestion() {
     if(questionNumber == 10){
         document.getElementById("thankyou").innerText = "Thank You!"
         document.getElementById("score").innerText = score + "/40"
+        document.getElementById("next").innerText = "Happy Holi!"
     }
     if(questionNumber == 9){
         document.getElementById("next").innerText = "Click for Result"
